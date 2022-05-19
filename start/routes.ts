@@ -24,6 +24,6 @@ Route.get('/', async ({ view }) => {
   return view.render('welcome')
 })
 
-Route.get('/not-here', async ({response}) => {
+Route.get('/not-here', async ({ response }) => {
   response.redirect('/')
 })
